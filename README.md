@@ -16,6 +16,8 @@ Barcelona Digital Talent organiza JUMP2DIGITAL, el primer evento de referencia d
 
 ✅ Task 6 → El endpoint /ticket/analytics devuelve la siguiente información: Valor total de los productos vendidos, números de productos venidos por tipo, número de tickets que han utilizado Visa y número de tickets que han utilizado MasterCard
 
+
+![screen shot](https://drive.google.com/uc?export=view&id=1D_C0-oiEh5y4sj3OufFOG57gDVdtibv6)
 ## Usage
 
 env.local.js: Archivo configuración del entorno.
@@ -39,6 +41,18 @@ src/components/response.js: implementación de respuesta node.js estandar.
   - Express
 ## API
 ![screen shot](https://drive.google.com/uc?export=view&id=1THaBKhMPF0tVYwJRiZ0x1dA9DgDapbKX)
+/product/:_id GET = revisar producto individual
+/product GET = todos productos
+/product DELETE = recibe body: {_id:'XX'}
+/product PUT = actualizar parametros ejemplo body: {"_id":"XXXX","name": "mac mini","price": 1200,"description": "Laptops"}
+/product POST = crear producto ejemplo body: {"name": "mac mini","price": 1200,"description": "Laptops"}
+
+/ticket/read/:_id GET = revisar ticket individual
+/ticket GET = todos ticket solo por revisión
+/ticket DELETE = recibe body: {_id:'XX'}
+/ticket POST = crear producto ejemplo body: {"productId": "XXX","amount": 500000,"paymentType": "Visa"}
+/ticket/analytics = entrega de resultado.
+
 ![screen shot](https://drive.google.com/uc?export=view&id=18Ji5ptbSvKrjlqhaWEI8ekZYZdyfIO40)
 ## Installation
 
