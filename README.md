@@ -17,7 +17,7 @@ Barcelona Digital Talent organiza JUMP2DIGITAL, el primer evento de referencia d
 ✅ Task 6 → El endpoint /ticket/analytics devuelve la siguiente información: Valor total de los productos vendidos, números de productos venidos por tipo, número de tickets que han utilizado Visa y número de tickets que han utilizado MasterCard
 
 ## Usage
-
+![alt text] (https://raw.githubusercontent.com/DevZatokio/jump2digital-back/main/images/tree.png?token=ADC3J53RKSADWTTTUR3MMV3BT3XDK)
 ## API
 
 ## Installation
