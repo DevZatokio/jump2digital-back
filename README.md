@@ -19,7 +19,7 @@ Barcelona Digital Talent organiza JUMP2DIGITAL, el primer evento de referencia d
 ## Usage
 
 ## API
-[!alt text](https://drive.google.com/file/d/1THaBKhMPF0tVYwJRiZ0x1dA9DgDapbKX/view?usp=sharing)
+![screen shot](https://drive.google.com/file/d/1THaBKhMPF0tVYwJRiZ0x1dA9DgDapbKX/view?usp=sharing)
 ## Installation
 
 - Instalar dependencia
