@@ -1,0 +1,28 @@
+{
+  "name": "jump2digital-back",
+  "version": "0.0.1",
+  "description": "Barcelona Digital Talent organiza JUMP2DIGITAL, el primer evento de referencia del talento digital en Barcelona impulsado por Mobile World Capital Barcelona, Ayuntamiento de Barcelona, Generalitat de Catalunya y ACCIÓ , dónde podrás conocer las tecnologías y profesiones digitales más emergentes en este ecosistema, poner a prueba tus habilidades digitales a través de actividades de reclutamiento y conectar con las empresas que están liderando la digitalización del sector. Lugar un Hackathon dónde empresas del hub tecnológico de Barcelona buscarán nuevos profesionales con perfil de Frontend, Backend y Data para incorporarlos a sus compañías. ¿Te lo vas a perder? Participa en la primera fase del Hackathon que tendrá lugar del 22 – 28 de noviembre y, si eres una de las 80 personas seleccionadas, conseguirás una plaza en la competición presencial que organizaremos el 10 de diciembre en La Llotja de Barcelona.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "jump2digital",
+    "back",
+    "desafio"
+  ],
+  "author": "Camilo Andres Orellana Loyola <srcarmi@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "connect-timeout": "^1.9.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-list-endpoints": "^6.0.0",
+    "express-rate-limit": "^5.5.1",
+    "helmet": "^4.6.0",
+    "mongoose": "^6.0.13",
+    "uuid": "^8.3.2"
+  }
+}
