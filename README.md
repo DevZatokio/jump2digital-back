@@ -18,6 +18,25 @@ Barcelona Digital Talent organiza JUMP2DIGITAL, el primer evento de referencia d
 
 ## Usage
 
+env.local.js: Archivo configuración del entorno.
+server.js: Archivo de configuración del servidor.
+src: Carpeta contenedora de aplicación.
+components: Carpeta componentes estructurales e importante.
+configs: Carpeta configuracion de los components o otros.
+controllers: Carpeta controladores, endpoints ordenado carpeta segun actividad.
+routes: Carpeta de rutas ordenas por el nombre de carpeta de controladores.
+schemas: Esquemas que se presentan para interactuar con mongoDB.
+
+- Archivos importantes
+
+src/components/database.js: configuración clase database metodos importantes conexión, model, desconexión.
+
+src/components/response.js: implementación de respuesta node.js estandar.
+
+- Arquitectura
+  - JavaScript
+  - MongoDB
+  - Express
 ## API
 ![screen shot](https://drive.google.com/uc?export=view&id=1THaBKhMPF0tVYwJRiZ0x1dA9DgDapbKX)
 ## Installation
