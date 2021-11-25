@@ -43,15 +43,23 @@ src/components/response.js: implementación de respuesta node.js estandar.
 ![screen shot](https://drive.google.com/uc?export=view&id=1THaBKhMPF0tVYwJRiZ0x1dA9DgDapbKX)
 
 /product/:_id GET = revisar producto individual
+
 /product GET = todos productos
+
 /product DELETE = recibe body: {_id:'XX'}
+
 /product PUT = actualizar parametros ejemplo body: {"_id":"XXXX","name": "mac mini","price": 1200,"description": "Laptops"}
+
 /product POST = crear producto ejemplo body: {"name": "mac mini","price": 1200,"description": "Laptops"}
 
 /ticket/read/:_id GET = revisar ticket individual
+
 /ticket GET = todos ticket solo por revisión
+
 /ticket DELETE = recibe body: {_id:'XX'}
+
 /ticket POST = crear producto ejemplo body: {"productId": "XXX","amount": 500000,"paymentType": "Visa"}
+
 /ticket/analytics = entrega de resultado.
 
 ![screen shot](https://drive.google.com/uc?export=view&id=18Ji5ptbSvKrjlqhaWEI8ekZYZdyfIO40)
