@@ -41,6 +41,7 @@ src/components/response.js: implementación de respuesta node.js estandar.
   - Express
 ## API
 ![screen shot](https://drive.google.com/uc?export=view&id=1THaBKhMPF0tVYwJRiZ0x1dA9DgDapbKX)
+
 /product/:_id GET = revisar producto individual
 /product GET = todos productos
 /product DELETE = recibe body: {_id:'XX'}
