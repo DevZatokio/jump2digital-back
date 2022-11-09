@@ -13,7 +13,7 @@ const configs = {
   headers_credentials: 'true',
   headers_allow_methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
   headers_allow_headers: ['Origin', 'X-Requested-With', 'Content-Type', 'Accept', 'Authorization', 'Access-Control-Allow-Credentials', 'Access-Control-Request-Headers', 'x-access-token'],
-  db_uri: 'mongodb+srv://jump2digital:Am0eGiDN8LDFNObk@clusterjump2digital.b5zb8.mongodb.net/jump?retryWrites=true&w=majority',
+  db_uri: '',
 };
 
 class Env {
